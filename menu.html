@@ -1,432 +1,686 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="" />
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
+    <title>Royal Taj Indian Restaurant</title>
 
-  <title> Royal Taj Indian Restaurant </title>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!--owl slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!-- nice select  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+      integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+      crossorigin="anonymous"
+    />
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- nice select  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-
-</head>
-
-<body class="sub_page">
-
-  <div class="hero_area">
-    <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
-    </div>
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-              <img src="images/1.png" alt="" height="100" width="300"> 
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span> </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="book.html">Book Table</a>
-              </li>
-            </ul>
-            <div class="user_option">
-              <a href="" class="order_online">
-                Order Online
-              </a>
-            </div>
-          </div>
-        </nav>
+  <body class="sub_page">
+    <div class="hero_area">
+      <div class="bg-box">
+        <img src="images/hero-bg.jpg" alt="" />
       </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-  <!-- food section -->
-
-  <section class="food_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Our Menu
-        </h2>
-      </div>
-
-      <ul class="filters_menu">
-        <li class="active" data-filter="*">All</li>
-        <li data-filter=".burger">Appetizers</li>
-        <li data-filter=".pizza">Soups</li>
-        <li data-filter=".pasta">Biryani</li>
-        <li data-filter=".fries">Vegetarian Specials</li>
-        <li data-filter=".fries">Chicken Specials</li>
-        <li data-filter=".fries">Tandoor Specials</li>
-        <li data-filter=".fries">Lamb Specials</li>
-        <li data-filter=".fries">Combo Dinner</li>
-        <li data-filter=".fries">Sea Food</li>
-        <li data-filter=".fries">Salads</li>
-        <li data-filter=".fries">Accompaniments</li>
-        <li data-filter=".fries">Desserts</li>
-        <li data-filter=".fries">Beverages</li>
-      </ul>
-
-      <div class="filters-content">
-        <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f1.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Pizza
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f2.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Burger
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f3.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Pizza
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f4.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Pasta
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all fries">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f5.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    French Fries
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f6.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Pizza
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f7.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Tasty Burger
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f8.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Tasty Burger
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f9.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Delicious Pasta
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                  </p>
-                  <div class="options">
-                    <h2></h2>
-                    <a href="" class="text-white">
-                      $20
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View More
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end food section -->
-
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="" class="footer-logo">
-              <img src="images/1.png" alt="" height="100" width="150">
-          
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/1.png" alt="" height="100" width="300" />
             </a>
-            <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
-            </p>
-            <div class="footer_social">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
-              </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="menu.html"
+                    >Menu <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="book.html">Book Table</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <a href="" class="order_online"> Order Online </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+    </div>
+
+    <!-- food section -->
+
+    <section class="food_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Our Menu</h2>
+        </div>
+
+        <ul class="filters_menu">
+          <li class="active" data-filter="*">All</li>
+          <li data-filter=".apt">Appetizers</li>
+          <li data-filter=".soup">Soups</li>
+          <li data-filter=".pasta">Biryani</li>
+          <li data-filter=".fries">Vegetarian Specials</li>
+          <li data-filter=".fries">Chicken Specials</li>
+          <li data-filter=".fries">Tandoor Specials</li>
+          <li data-filter=".fries">Lamb Specials</li>
+          <li data-filter=".fries">Combo Dinner</li>
+          <li data-filter=".fries">Sea Food</li>
+          <li data-filter=".fries">Salads</li>
+          <li data-filter=".fries">Accompaniments</li>
+          <li data-filter=".fries">Desserts</li>
+          <li data-filter=".fries">Beverages</li>
+        </ul>
+
+        <div class="filters-content">
+          <div class="row grid">
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/papardamm.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      4 Piece Papardamm
+                      <a
+                        href=""
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $2.99
+                      </a>
+                    </h5>
+                    <p>
+                      An Indian wafer, which made from crispy lentil and deep
+                      fried
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/vegpakoda.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Vegetable Pakora
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $5.99                      </a>
+                    </h5>
+                    <p>
+                      A Fav Indian Snack made with onions and fresh veggies
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/vegsamosa.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Veg Samosa <small>2 pieces</small>
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $5.99                      </a>
+                    </h5>
+                    <p>
+                      Deep fried crisp pastries stuffed with mildly spiced potatos and green peas
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/paneerpakoda.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Paneer Pakora
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $6.99                      </a>
+                    </h5>
+                    <p>
+                     Homemade cheese cubes lightly spiced and batter fried
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/alootikki.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Aloo Tikki <small>2 pieces</small>
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $5.99                      </a>
+                    </h5>
+                    <p>
+                    A mildly spiced and minced deep fried potatoes
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/chickenpakoda.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Chicken Pakora
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $6.99                      </a>
+                    </h5>
+                    <p>
+                      Tender boneless batter fried chicken marinated with spices
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/chickendippers.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Chicken Dippers
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $6.99                      </a>
+                    </h5>
+                    <p>
+                     Traditional boneless sliced chicken coated in breadcrumbs and fried
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/vegplatter.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Assorted veg platter
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $10.99                      </a>
+                    </h5>
+                    <p>
+                     A sampling of all veg starters in one plate of happiness
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/mixedplatter.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Mixed platter
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $11.99                      </a>
+                    </h5>
+                    <p>
+                     A sampling of all starters including chicken pakora and paneer pakora
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/spvegsamosa.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Special Veg Samosa
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $11.99                      </a>
+                    </h5>
+                    <p>
+                    Mildly spiced deep fried potato pastries served with choley, fresh yogurt and tamrind sauce
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/chanachat.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Chane ki chat
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $8.99                      </a>
+                    </h5>
+                    <p>
+                     A Tangy sweet blend of fruit, vegetables and chic peas sprinkled with black indian salt chilled
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all apt">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/appetizers/papadichat.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Paneer papadi chat
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $8.99                      </a>
+                    </h5>
+                    <p>
+                     A Tangy sweet blend of paneer, potatos and papadies sprinkled with black indian salt chilled
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all soup">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/soup/dal.PNG" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Dal Soup
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $4.99                      </a>
+                    </h5>
+                    <p>
+                    Deliciously mild lentil dal soup which helps in weightloss
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all soup">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/soup/muligatawny.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Muligatawny Soup
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $5.99                      </a>
+                    </h5>
+                    <p>
+                   Lentil soup with chicken, herbs and spices made for taste explosion
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 all soup">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/soup/tomato.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Tomato Soup
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $4.99                      </a>
+                    </h5>
+                    <p>
+                      Hot and tangy soup flavored with spices tastes so heavenly
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-6 col-lg-4 all soup">
+              <div class="box">
+                <div>
+                  <div class="img-box">
+                    <img src="images/soup/chicken.jpg" alt="" />
+                  </div>
+                  <div class="detail-box">
+                    <h5>
+                      Chicken Soup
+                      <a
+                        href="#"
+                        class="ml-3 p-1 rounded-pill text-white bg-primary"
+                      >
+                        $5.99                      </a>
+                    </h5>
+                    <p>
+                      soup made from chicken, simmered in water, usually with various masalas
+                    </p>
+                    <div class="d-flex justify-content-end">
+                      <a
+                        href="https://www.beyondmenu.com/47009/cincinnati/royal-taj-indian-restaurant-cincinnati-45255.aspx?utm_source=satellite&utm_medium=menu_group&_#group_3420516"
+                        class="btn btn-warning text-white"
+                        >Add</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- end food section -->
+
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-col">
+            <div class="footer_contact">
+              <h4>Contact Us</h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span> Location </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span> Call +01 1234567890 </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span> demo@gmail.com </span>
+                </a>
+              </div>
             </div>
           </div>
+          <div class="col-md-4 footer-col">
+            <div class="footer_detail">
+              <a href="" class="footer-logo">
+                <img src="images/1.png" alt="" height="100" width="150" />
+              </a>
+              <p>
+                Necessary, making this the first true generator on the Internet.
+                It uses a dictionary of over 200 Latin words, combined with
+              </p>
+              <div class="footer_social">
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-pinterest" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 footer-col">
+            <h4>Opening Hours</h4>
+            <p>Everyday</p>
+            <p>10.00 Am -10.00 Pm</p>
+          </div>
         </div>
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
+        <div class="footer-info">
           <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
+            &copy; <span id="displayYear"></span> All Rights Reserved By
+            <a href="index.html"> Royal Taj Indian Restaurant</a><br /><br />
           </p>
         </div>
       </div>
-      <div class="footer-info">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="index.html"> Royal Taj Indian Restaurant</a><br><br>
-        </p>
-      </div>
-    </div>
-  </footer>
-  <!-- footer section -->
+    </footer>
+    <!-- footer section -->
 
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- isotope js -->
-  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-  <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
-
-</body>
-
+    <!-- jQery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+    <!-- nice select -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+  </body>
 </html>
